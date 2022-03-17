@@ -1,0 +1,25 @@
+Package: dQTG.seq
+Type: Package
+Title: A BSA Software for Detecting All Types of QTLs in BC, DH, RIL
+        and F2
+Version: 1.0
+Maintainer: Yuan-Ming Zhang <soyzhang@mail.hzau.edu.cn>
+Contact: Yuan-Ming Zhang <soyzhang@mail.hzau.edu.cn>
+Authors@R: c( person("Pei", "Li", role="aut")
+ , person("Yuan-Ming", "Zhang", role=c("aut","cre"), email="soyzhang@mail.hzau.edu.cn", 
+   comment=c(ORCID="0000-0003-2317-2190"))
+   )
+Description: The new (dQTG.seq1 and dQTG.seq2) and existing (SmoothLOD, G', deltaSNP and ED) bulked segregant analysis methods are used to identify various types of quantitative trait loci for complex traits via extreme phenotype individuals in bi-parental segregation populations (F2, backcross, doubled haploid and recombinant inbred line). The numbers of marker alleles in extreme low and high pools are used in existing methods to identify trait-related genes, while the numbers of marker alleles and genotypes in extreme low and high pools are used in the new methods to construct a new statistic Gw for identifying trait-related genes. dQTG-seq2 is feasible to identify extremely over-dominant and small-effect genes in F2.
+Depends: R (>= 3.5.0)
+License: GPL (>= 2)
+Imports: BB, data.table, doParallel, openxlsx, qtl, stringr, writexl,
+        parallel,foreach
+Encoding: UTF-8
+LazyData: true
+Packaged: 2022-03-16 13:37:17 UTC; Administrator
+RoxygenNote: 7.1.1
+NeedsCompilation: no
+Author: Pei Li [aut],
+  Yuan-Ming Zhang [aut, cre] (<https://orcid.org/0000-0003-2317-2190>)
+Repository: CRAN
+Date/Publication: 2022-03-17 08:40:05 UTC

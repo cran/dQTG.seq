@@ -1,0 +1,23 @@
+
+importFrom("qtl","sim.map","sim.cross")
+importFrom("BB","dfsane")
+importFrom("data.table", "fread")
+importFrom("doParallel","registerDoParallel")
+importFrom("foreach","%dopar%","%do%","foreach")
+importFrom("parallel","makeCluster","detectCores","stopCluster")
+importFrom("openxlsx","read.xlsx")
+importFrom("stringr","str_detect")
+importFrom("writexl","write_xlsx")
+importFrom("grDevices","dev.off", "jpeg", "pdf", "png", "tiff")
+importFrom("graphics", "abline", "axis", "box", "layout", "mtext",
+                "par")
+importFrom("stats", "loess", "na.omit", "optimize", "pnorm", "predict",
+                "rnorm", "update")
+importFrom("utils", "tail", "write.csv")
+
+
+export(Dodata)
+export(dQTGseq)
+export(Readdata1)
+
+

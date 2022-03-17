@@ -1,0 +1,12 @@
+2536f8b226a6670d560520b9fa2e46dc *DESCRIPTION
+2e7666e27f6438c41f87a3a107937e52 *NAMESPACE
+8e3b66966d083afd99d51484586139c6 *R/Dodata.R
+12cd15ce887f056d7c5146429a8adafd *R/dQTGseq.R
+3a3a77ab2f8c5ab01bff2babe67a5d7e *R/readdata.R
+fc377f5164e10977097f2a49da8de348 *data/BSA.rda
+1ecd9c1270d920a4b77a706dfe5aa56c *inst/Instruction.pdf
+524ec124e73491679e6989a29943e3de *inst/extdata/BSA.csv
+66902f3989a91b9cdebb37e9465a1a28 *man/BSA.Rd
+92c93b3ad5e323a926545ee8b4675fe0 *man/Dodata.Rd
+6c0544ae3bed2a76eba971e9e3f1774e *man/Readdata1.Rd
+e1ee911d4e18e96361f6eeb3bd77558f *man/dQTGseq.Rd
