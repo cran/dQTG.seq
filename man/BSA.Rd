@@ -12,6 +12,3 @@
 \details{
 Input file for dQTG.seq	function. 
 }
-\author{
- Maintainer: Yuanming Zhang<soyzhang@mail.hzau.edu.cn>
-}

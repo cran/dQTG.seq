@@ -14,10 +14,11 @@ importFrom("graphics", "abline", "axis", "box", "layout", "mtext",
 importFrom("stats", "loess", "na.omit", "optimize", "pnorm", "predict",
                 "rnorm", "update")
 importFrom("utils", "tail", "write.csv")
+importFrom("vroom", "vroom")
 
 
 export(Dodata)
-export(dQTGseq)
+export(dQTG.seq)
 export(Readdata1)
 
 

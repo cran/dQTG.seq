@@ -6,18 +6,11 @@
 #' @export
 #' @examples
 #' data(BSA)
-#' Readdata1(BSA) 
-
+#' Readdata1(BSA)
 Readdata1<-function(File){
- 
-  # File<-"D:/Packages/dQTG.seq2/inst/extdata/BSA.csv"
-  # Readdata1(File)
-  
   if(is.character(File)==TRUE){
-    f=vroom(File) #读取文档
-    data11<-as.data.frame(f)
-    data1<-rbind(names(data11),data11)
-    #data1<-fread(File,header = FALSE,stringsAsFactors=FALSE)
+    
+    data1<-fread(File,header = FALSE,stringsAsFactors=FALSE)
     #titlenameGen<-colnames(genRaw)[1:3]
   }else{
     data1<-File

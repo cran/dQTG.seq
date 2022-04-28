@@ -17,8 +17,8 @@
 #' @export
 #' @examples
 #' data(BSA)
-#' dQTGseq(dir=tempdir(),filegen=BSA,chr="all",color="blue",CLO=1)
-dQTGseq<-function(dir,filegen,chr,color,CLO){
+#' dQTG.seq(dir=tempdir(),filegen=BSA,chr="all",color="blue",CLO=1)
+dQTG.seq<-function(dir,filegen,chr,color,CLO){
 
 
 
