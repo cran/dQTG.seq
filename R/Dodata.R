@@ -1681,7 +1681,7 @@ Dodata<-function(dir,calculatedata,chr,color1,CLO){
       result<-cbind(gen1[,1:3],allel,genotype)
       colnames(result)<-c("Maker","Chromosome","Position","AL","aL","AH","aH","AAL","aaL","AaL","AAH","aaH","AaH")
       #result1<-Filterdata(result)
-      extreme.result[[i]]<-result1
+      extreme.result[[i]]<-result
     }
     #}
     return(extreme.result)

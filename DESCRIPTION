@@ -2,7 +2,7 @@ Package: dQTG.seq
 Type: Package
 Title: A BSA Software for Detecting All Types of QTLs in BC, DH, RIL
         and F2
-Version: 1.0.1
+Version: 1.0.2
 Maintainer: Yuan-Ming Zhang <soyzhang@mail.hzau.edu.cn>
 Contact: Yuan-Ming Zhang <soyzhang@mail.hzau.edu.cn>
 Authors@R: c( person("Pei", "Li", role="aut")
@@ -16,10 +16,10 @@ Imports: BB, data.table, doParallel, openxlsx, qtl, stringr,
         writexl,vroom, parallel,foreach
 Encoding: UTF-8
 LazyData: true
-Packaged: 2022-04-28 11:12:32 UTC; Administrator
-RoxygenNote: 7.1.1
+Packaged: 2023-03-21 09:51:30 UTC; Administrator
+RoxygenNote: 7.2.3
 NeedsCompilation: no
 Author: Pei Li [aut],
   Yuan-Ming Zhang [aut, cre] (<https://orcid.org/0000-0003-2317-2190>)
 Repository: CRAN
-Date/Publication: 2022-04-28 13:30:05 UTC
+Date/Publication: 2023-03-22 09:10:06 UTC
